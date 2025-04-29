@@ -1,0 +1,34 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ru limeira",
+      "intents": [
+        {
+          "name": "RefeicaoDiaIntent",
+          "samples": [
+            "hoje é o que no RU",
+            "o que tem no RU hoje",
+            "qual a refeição de hoje no RU"
+          ]
+        },
+        {
+          "name": "RefeicaoAmanhaIntent",
+          "samples": [
+            "amanhã é o que no RU",
+            "o que tem no RU amanhã",
+            "qual a refeição de amanhã no RU"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Consulta o cardápio do RU de Limeira",
+          "examplePhrases": [
+            "Alexa, abrir ru limeira",
+            "hoje é o que no RU?",
+            "amanhã é o que no RU?"
+          ],
+          "name": "Cardápio RU Limeira",
+          "description": "Skill que informa o almoço ou jantar do dia atual ou do dia seguinte do Restaurante Universitário da Unicamp em Limeira."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Diga: 'hoje é o que no RU?' ou 'amanhã é o que no RU?'",
+      "category": "EDUCATION_AND_REFERENCE"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": ""
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
